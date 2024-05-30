@@ -1,9 +1,9 @@
 extern lpRemain:QWORD
-extern dwNumber:QWORD
 
 .code 
 hkGetValue proc
-	mov rax,dwNumber
+	and         dword ptr [rbp],ebx
+	sub rsp, 8
 	jmp lpRemain
 hkGetValue endp
 end

@@ -5,6 +5,5 @@
 
 extern "C" void hkGetValue();
 extern "C" LPVOID lpRemain;
-extern "C" DWORD_PTR dwNumber;
 
 #endif
